@@ -1,0 +1,113 @@
+.about {
+    background-color: #f8f8f8;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem 1rem 0 1rem;
+    width: 100%;
+   
+}
+
+.logo-image{
+    background-color: rgb(0, 98, 172);
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 4rem;
+    border-radius: 50px 10px 50px 10px;
+    border: 0ch;
+    box-shadow: 1px 2px 3px rgb(90, 90, 90);
+    color: rgb(231, 231, 231);
+    user-select: none;
+}
+
+
+.logo-image h1{
+    font-size: 80px;
+}
+
+
+.logo-image p:nth-child(2){
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+}
+
+.logo-image p:nth-child(3){
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.about .container {
+    width: 1240px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.about h2 {
+    font-size: 2.5rem;
+}
+
+.about .col-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.about .col-2 p:first-of-type {
+    margin: 2rem 0;
+}
+
+.about .col-2 p:nth-child(4) {
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.about button {
+    margin-top: 1rem;
+    background-color: rgb(32, 166, 255);
+}
+
+
+@media screen and (max-width:940px) {
+
+    .about {
+        height: 100%;
+    }
+
+
+    .about .container {
+        grid-template-columns: 1fr;
+    }
+
+    .about .container {
+        width: 100%;
+    }
+
+    .about .container img {
+        padding: 0rem;
+        width: 90vw;
+    }
+
+    .about .container .col-2 {
+        padding: 0;
+    }
+
+    .about button {
+        margin-bottom: 1rem;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
